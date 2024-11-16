@@ -66,7 +66,7 @@ int main(){
 
     printf("Total Num(Nonzeros) = %d\n", cnt);
 
-    double det = compute_det(matrix, n, DEFAULT, DEFAULT);
-    printf("det = %lf", det);
+    double det = compute_det_gaussion(matrix, n);
+    printf("det = %lf\n", det);
     return 0;
 }
