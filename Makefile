@@ -23,4 +23,4 @@ solver: $(DEMO)/solver.cpp
 
 # Clean
 clean:
-	rm -f test test1
+	rm -f test compute_det solver
