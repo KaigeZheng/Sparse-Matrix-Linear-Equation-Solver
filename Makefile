@@ -36,4 +36,4 @@ simd:CSR-simd.cpp
 
 # Clean
 clean:
-	rm -f test compute_det solver
+	rm -f test compute_det solver baseline eigen-optimized CSR-best CSR-simd
