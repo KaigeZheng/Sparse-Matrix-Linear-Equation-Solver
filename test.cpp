@@ -52,7 +52,7 @@ int main(){
     int n = 39;
     int m = 39;
 
-    const char *filename = "./data/bcspwr01.mtx";
+    const char *filename = "./data/bcspwr01/bcspwr01.mtx";
 
     int status = readMatrix(filename, A, n, m);
     generate_random_vector(b, n, 0.0, 10.0);
