@@ -23,3 +23,19 @@ make clean && make compute_det
 make clean && make solver
 ./solver
 ```
+
+## run the baseline
+
+```shell
+make clean && make baseline
+./baseline
+```
+
+## run the optimized-CSR version
+
+```shell
+make clean && make best
+./CSR-best > log
+```
+
+> Note: It's essential to put sparse matrix (`.mtx`) file in ./data directory.
